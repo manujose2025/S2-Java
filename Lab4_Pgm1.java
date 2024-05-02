@@ -13,7 +13,6 @@ class Lab4_Pgm1
 {
 	public static void main(String[] args)
 	{
-	
 		System.out.println("\n*************************************************************************************************************");
 		System.out.println("Name      : Manu Jose");
 		System.out.println("Roll No.  : 41");
@@ -103,5 +102,7 @@ class Lab4_Pgm1
 				}
 			}
 		}while( choice != 5 );
+
+		sc.close();
 	}
 }

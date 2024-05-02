@@ -280,5 +280,7 @@ class Lab4_Pgm2
 				}
 			}
 		}while( choice != 5 );
+
+		sc.close();
 	}
 }
