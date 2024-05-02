@@ -138,5 +138,6 @@ class Teacherr extends Emp
 			System.out.println();
 		}
 	
+		sc.close();
 	}
 }

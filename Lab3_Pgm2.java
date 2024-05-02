@@ -46,7 +46,7 @@ class Employee
 			System.out.print("\nID : ");
 			eid = sc.nextInt();
 			
-			//sc.nextLine();
+			sc.nextLine();
 			
 			System.out.print("Name : ");
 			name = sc.nextLine();
@@ -74,7 +74,7 @@ class Employee
 			System.out.println();
 		}
 		
-	
+		sc.close();
 	}
 }
 

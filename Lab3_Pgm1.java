@@ -35,6 +35,8 @@ class Lab3_Pgm1
 		areaCalc(le, h);
 		
 		System.out.println("\nThe program has ended!");
+
+		sc.close();
 	}
 	
 	public static void areaCalc(double r)
